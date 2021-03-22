@@ -1,0 +1,122 @@
+body {
+  background-color: #3d88a3;
+  align-items: center;
+}
+
+.error {
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 300px;
+  border-radius: 4px;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 8px black;
+}
+
+.header {
+  box-shadow: 2px 2px 4px black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #93262a;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-shadow: 2px 2px 4px black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3d88a3;
+  margin-left: -40px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  padding: 10px 50px;
+  font-size: large;
+  box-shadow: 2px 2px 8px black;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.pokename {
+  padding-right: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  background-color: grey;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+.pagination button.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pokelinks {
+  padding: 10 px;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details-list {
+  flex-wrap: wrap;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.details.moves {
+  margin-left: auto;
+  display: inline-flex;
+  margin-right: 4px;
+  padding: 5px;
+}
+
+.image {
+  border-style: solid;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: #3d88a3;
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
