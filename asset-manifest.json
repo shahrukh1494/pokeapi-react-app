@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokeapi-react-app/static/css/main.aff0eb28.chunk.css",
+    "main.js": "/pokeapi-react-app/static/js/main.44c214c5.chunk.js",
+    "main.js.map": "/pokeapi-react-app/static/js/main.44c214c5.chunk.js.map",
+    "runtime-main.js": "/pokeapi-react-app/static/js/runtime-main.4635d9e5.js",
+    "runtime-main.js.map": "/pokeapi-react-app/static/js/runtime-main.4635d9e5.js.map",
+    "static/js/2.adebf600.chunk.js": "/pokeapi-react-app/static/js/2.adebf600.chunk.js",
+    "static/js/2.adebf600.chunk.js.map": "/pokeapi-react-app/static/js/2.adebf600.chunk.js.map",
+    "static/js/3.72890d47.chunk.js": "/pokeapi-react-app/static/js/3.72890d47.chunk.js",
+    "static/js/3.72890d47.chunk.js.map": "/pokeapi-react-app/static/js/3.72890d47.chunk.js.map",
+    "index.html": "/pokeapi-react-app/index.html",
+    "static/css/main.aff0eb28.chunk.css.map": "/pokeapi-react-app/static/css/main.aff0eb28.chunk.css.map",
+    "static/js/2.adebf600.chunk.js.LICENSE.txt": "/pokeapi-react-app/static/js/2.adebf600.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4635d9e5.js",
+    "static/js/2.adebf600.chunk.js",
+    "static/css/main.aff0eb28.chunk.css",
+    "static/js/main.44c214c5.chunk.js"
+  ]
+}
