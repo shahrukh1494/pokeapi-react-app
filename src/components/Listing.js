@@ -4,7 +4,7 @@ import PokeList from "./PokeList";
 
 const Listing = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Route exact path="/" component={PokeList} />
         <Route path="/details/:id" component={PokeDetails}></Route>
